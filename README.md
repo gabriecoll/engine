@@ -80,7 +80,9 @@ This dataset has two main weaknesses. 1) While it is more comprehensive than any
 
 # 2. contracts
 
-**FPDS methodology**
+The purpose of the contracts dataset is to identify important trends in contract obligations that are directly relevant to military aircraft engines. 
+
+**Federal Procurement Data System methodology**
 
 For nearly a decade, the Defense-Industrial Initiatives Group (DIIG) has issued a series of analytical reports on federal contract spending for national security across the government. These reports are built on FPDS data, presently downloaded in bulk from USAspending.gov. DIIG now maintains its own database of federal spending, including years 1990–2017, that is a combination of data download from FPDS and legacy DD350 data. For this report, however, the study team primarily relied on FY2000–2017. Data before FY2000 require mixing sources and incur limitations.
 
@@ -101,3 +103,28 @@ Despite its flaws, FPDS is the only comprehensive data source of government cont
 The 2016 data used in this report were downloaded in January 2017. The 2017 data used in this report were downloaded in January 2018; a full re-download of all back-year data was performed simultaneously.
 
 # 3. budget
+
+The purpose of the budget dataset is to identify important Research Development Testing and Evaluation (RDT&E) investments in military aircraft engines, as well as to compare DoD’s spending plans to its actual spending. 
+
+**Future Years Defense Program methodology**
+
+Most years, DoD releases its Future Years Defense Program, a five-year spending plan for each program, in a set of budget documents. These documents, known as justification books, are available on the DoD comptroller website. Our study team analyzed the justification books from 1999 to 2019 for Army, Navy, and Air Force to identify spending that was directly related to military aircraft engines. 
+
+We began with R-2s (RDT&E documents) and identified relevant program elements based on “Mission Description and Budget Item Justification”. We looked to program elements that mentioned turbine engines or more advanced aerospace technologies such as ramjets or hypersonics. We then identified relevant projects within each program. Each program element is broken down into separate projects. For example, `Aerospace Propulsion and Power Technology` had six projects in the 2019 President’s Budget request: `Aerospace Fuels`, `Aerospace Power Technology`, `Aircraft Propulsion Subsystems Int`, `Space & Missile Rocket Propulsion`, `Advanced Aerospace Propulsion`, and `Advanced Turbine Engine Gas Generator`. 
+
+We, once again read the “Mission Description and Budget Item Justification”, this time for each project, and determined which projects were sufficiently relevant to military aircraft engines. For the projects that were, we collected their spending plan and consolidated the numbers into a single database. The project names, and even the project numbers, sometimes changed from year to year. So, the study team also identified such changes and updated the names to accurately reflect the projects in our trend analysis. These changes can be seen within the data_processing.R file. 
+
+**Variables**
+
+`fydp_year`: the President’s Budget Request Year. For most recent justification books were released for PB 2019.  
+
+`fy`: the fiscal year for relevant spending. For example, the PB 2019 request includes a spending plan for fiscal years 2019, 2020, 2021, 2022, and 2023. 
+
+`account`: the RDT&E budget activity. This includes: basic research, applied research, advanced technology development, advanced component development & prototypes, system development & demonstration, management support, and operational systems development. 
+
+`organization`: the military service, which includes Army, Air Force, and Navy. 
+
+`program_number` and `program_name`: the R-1 Program Element number and name 
+
+`project_number` and `project_name`: the project number and name (a subcategory of the R-1 Program Element). 
+
