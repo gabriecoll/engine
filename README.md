@@ -4,7 +4,7 @@ This folder includes coding work for the Future of Military Engines project.
 
 There are three main datasets. 
 
-1. **inventory**: `USAF aircraft inventory` / `engines` / `specs` (.../inventory) 
+1. **inventory**: USAF aircraft inventory / engines / specs (.../inventory) 
 
 2. **contracts**: Federal Procurement Data System (FPDS) contract numbers for military engines (.../contracts) 
 
