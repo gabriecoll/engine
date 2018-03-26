@@ -116,7 +116,7 @@ We began with R-2s (RDT&E documents) and identified relevant program elements ba
 
 We, once again read the “Mission Description and Budget Item Justification”, this time for each project, and determined which projects were sufficiently relevant to military aircraft engines. For the projects that were, we collected their spending plan and consolidated the numbers into a single database. The project names, and even the project numbers, sometimes changed from year to year. So, the study team also identified such changes and updated the names to accurately reflect the projects in our trend analysis. These changes can be seen within the data_processing.R file. 
 
-**Variables**
+**Bugdet variables**
 
 `fydp_year`: the President’s Budget Request Year. For most recent justification books were released for PB 2019.  
 
