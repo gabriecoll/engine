@@ -104,6 +104,31 @@ Despite its flaws, FPDS is the only comprehensive data source of government cont
 
 The 2016 data used in this report were downloaded in January 2017. The 2017 data used in this report were downloaded in January 2018; a full re-download of all back-year data was performed simultaneously.
 
+**Military aircraft engines** 
+
+- 
+
+**Notable contract variables** 
+
+`fy`: the fiscal year for the contract obligation
+
+`customer`: the military customer, which includes Army, Air Force, Navy, DLA, and Other DoD. 
+
+`category`: the type of contract obligation, which includes products, services, and R&D. 
+
+`project`: the name of the project for the contract obligation. 
+
+`parent`: the company receiving the contract. 
+
+`vendor_size`: the size of the company receiving the contract. 
+
+`competition`: the way that the contract was competed. 
+
+`contract_type`: the type of contract. 
+
+`amount`: the dollar value of the contract. 
+
+
 # 3. budget
 
 The purpose of the budget dataset is to identify important Research Development Testing and Evaluation (RDT&E) investments in military aircraft engines, as well as to compare DoD’s spending plans to its actual spending. 
