@@ -20,7 +20,7 @@ We began with a 2010 Air Force Association report, “Arsenal of Airpower: USAF 
 
 **Engine inventory**
 
-We then added a new variable, engine, which identifies the engine for every platform. For instance, the F-35 has the F135 and the F-22 has the F119. Further, we determined the number of engines for each platform and created the variable: engine_amount. For instance, the F-35 only has one engine and the F-22 has two. 
+We then added a new variable, engine, which identifies the engine for every platform. For instance, the F-35 has the F135 and the F-22 has the F119. Furthermore, we determined the number of engines for each platform and created the variable: engine_amount. For instance, the F-35 only has one engine and the F-22 has two. 
 
 **Aircraft performance specs**
 
@@ -93,6 +93,8 @@ Since the analysis presented in this report relies almost exclusively on FPDS da
 **Constant dollars and fiscal years**
 
 All dollar amounts in this data analysis section are reported as constant FY 2016 dollars unless specifically noted otherwise. Dollar amounts for all years are deflated by the implicit GDP deflator calculated by the U.S. Bureau of Economic Analysis, with FY2016 as the base year, allowing the CSIS team to more accurately compare and analyze changes in spending across time. Similarly, all compound annual growth values and percentage growth comparisons are based on constant dollars and thus adjusted for inflation. Due to the native format of FPDS and the ease of comparison with government databases, all references to years conform to the federal fiscal year. FY2017, the most recent complete year in the database, spans from October 1, 2016, to September 30, 2017.
+
+**Data quality**
 
 Any analysis based on FPDS information is naturally limited by the quality of the underlying data. Several Government Accountability Office (GAO) studies have highlighted the problems of FPDS (for example, William T. Woods’ 2003 report “Reliability of Federal Procurement Data,” and Katherine V. Schinasi’s 2005 report “Improvements Needed for the Federal Procurement Data System—Next Generation”).
 
