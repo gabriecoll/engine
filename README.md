@@ -155,7 +155,7 @@ We, once again read the “Mission Description and Budget Item Justification”,
 
 `project_number` and `project_name`: the project number and name (a subcategory of the R-1 Program Element). 
 
-**Mission Description and Budget Item Justification**
+**Mission description and budget item justifications**
 
 *`Advanced Aerospace Propulsion`*
 This project develops and demonstrates, via ground and flight tests, the scramjet propulsion cycle to a technology readiness level appropriate for full integration with other engine cycles (including turbine and rocket-based) to provide the Air Force with transformational military capabilities. The primary focus is on the hydrocarbonfueled, scramjet engine. Multi-cycle engines will provide the propulsion systems for possible application to support aircraft and weapon platforms operating up to Mach 7. Efforts include: scramjet flow-path optimization to enable operation over the widest possible range of Mach numbers; active combustion control to assure continuous positive thrust (even during mode transition); robust flame-holding to maintain stability through flow distortions; and maximized volume-to-surface area to minimize the thermal load imposed by the high-speed engine. Thermal management plays a vital role in scramjet and combined cycle engines, including considerations for protecting low speed propulsion systems (e.g., turbine engines) during hypersonic flight.
